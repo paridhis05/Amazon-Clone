@@ -167,14 +167,14 @@ a{
 }
 
 /* -------HERO-SECTION----- */
-.hero-section{
+/* .hero-section{
     background-image: url("images/hero_image.jpg");
     background-size: cover ;
     height: 350px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-}
+} */
 
 .hero-msg{
     background-color: white;
@@ -186,9 +186,39 @@ a{
     justify-content: center;
     width: 80%;
     margin-bottom: 25px;
+} 
+
+.hero-section ul{
+    display: flex;
+    overflow-y: hidden;
 }
 
+.hero-section .header-img{
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+
+.hero-section a{
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    padding: 5vh 1vw;
+    /* background: #ffffff4f; */
+    color: #0000007b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.control_next{
+    right: 0;
+}
 /* -------SHOP-SECTION  1----- */
+
+.header-box{
+    margin-top: -20vw;
+}
 
 .shop-section{
     display: flex;
@@ -204,6 +234,7 @@ a{
     background-color: #ffffff;
     padding: 20px 0px 15px;
     margin-top: 15px;
+    z-index: 1;
 }
 
 .shop-section .box h1{

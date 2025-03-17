@@ -28,6 +28,10 @@
     padding: 24px 0 12px 12px;
 }
 
+.product-cart-list a{
+    color: #000;
+}
+
 .product-cart-list img:first-child{
     width: 200px;
 }

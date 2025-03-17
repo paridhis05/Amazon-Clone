@@ -217,6 +217,10 @@ body{
     border-top-right-radius: 10px;
 }
 
+.product-d-options #option-1 .option-1-back{
+    background-color: #e4fbff;
+}
+
 .product-d-options .option:hover{
     border: 2px solid #21a8c0;
 }

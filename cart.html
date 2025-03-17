@@ -123,13 +123,17 @@
             <h1>Shopping Cart</h1>
             <hr>
             <div class="product-cart-list">
-                <img src="images/cart-product.jpg" alt="">
+                <img src="images/cart-product1.jpg" alt="">
                 <div>
                     <div class="product-cart-titleprice">
                         <p>HAMMER Bash 2.0 Over The Ear Wireless Bluetooth Headphones with Mic, Deep Bass, Foldable Headphones, Upto 8 Hours Playtime, Workout/Travel, Bluetooth 5.0 (Grey)</p>
-                        <p><b>₹2,099.00</b></p>
+                        <div>
+                            <div class="titleprice-red"><span>75% off</span> Deal</div>
+                            <p style="margin-top: 5px;"><b>₹2,099.00</b></p>
+                            <p class="product-titleprice-mrp"><del>₹8,245.00</del></p>
+                        </div>
                     </div>
-                    <p class="product-cart-bestseller"><span>#1 Best Seller</span> in Headphones</p>
+                    <!-- <p class="product-cart-bestseller"><span>#1 Best Seller</span> in Headphones</p> -->
                     <p class="product-card-stock">In stock</p>
                     <p class="product-card-delivery">Eligible for FREE Shipping</p>
                     <img src="images/cart-fulfilled-icon.png" alt="" class="cart-fulfilled-img">
@@ -137,7 +141,7 @@
 
                     <div class="product-cart-specs">
                         <p><b>Colour:</b></p> <p>Grey</p>
-                        <p><b>style Name:</b></p> <p>Bash 2.0</p>
+                        <p><b>Style Name:</b></p> <p>Bash 2.0</p>
                     </div>
 
                     <div class="cart-list-action">
@@ -159,25 +163,28 @@
                     </div>
                 </div>
             </div>
-
+            
             <hr>
             
             <div class="product-cart-list">
-                <img src="images/cart-product.jpg" alt="">
+                <img src="images/cart-product2.jpg" alt="">
                 <div>
                     <div class="product-cart-titleprice">
-                        <p>HAMMER Bash 2.0 Over The Ear Wireless Bluetooth Headphones with Mic, Deep Bass, Foldable Headphones, Upto 8 Hours Playtime, Workout/Travel, Bluetooth 5.0 (Grey)</p>
-                        <p><b>₹2,099.00</b></p>
+                        <p>Cetaphil Paraben, Sulphate-Free Gentle Skin Hydrating Face Wash Cleanser with Niacinamide, Vitamin B5 for Dry to Normal, Sensitive Skin - 125 ml</p>
+                        <div>
+                            <p><b>₹377.00</b></p>
+                            <!-- <p class="product-titleprice-mrp">M.R.P.: <del>₹8,245.00</del></p> -->
+                        </div>
                     </div>
-                    <p class="product-cart-bestseller"><span>#1 Best Seller</span> in Headphones</p>
+                    <p class="product-cart-bestseller"><span>#1 Best Seller</span> in Beauty</p>
                     <p class="product-card-stock">In stock</p>
                     <p class="product-card-delivery">Eligible for FREE Shipping</p>
                     <img src="images/cart-fulfilled-icon.png" alt="" class="cart-fulfilled-img">
                     <p class="product-cart-giftoption"><input type="checkbox">This will be a gift <span>Learn more</span></p>
 
                     <div class="product-cart-specs">
-                        <p><b>Colour:</b></p> <p>Grey</p>
-                        <p><b>style Name:</b></p> <p>Bash 2.0</p>
+                        <p><b>Scent Name:</b></p> <p>Unscented</p>
+                        <p><b>Size:</b></p> <p>125 ml (Pack of 1)</p>
                     </div>
 
                     <div class="cart-list-action">
@@ -199,13 +206,25 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            <div class="cart-list-subtotal">
+                Subtotal (2 items): <b>₹2,476.00</b>
+            </div>
         </div>
-        <div class="cart-right"></div>
+        <div class="cart-right">
+            <div class="cart-free-delivery">
+                <p><i class="fa-solid fa-circle-check"></i></p>
+                <p class="cart-right-p1"><b>Your order is eligible for FREE Delivery.</b>Choose <span>FREE Delivery</span> option at checkout.</p>
+            </div>
+            <p class="cart-subtotal">Subtotal (2 items): <b>₹2,476.00</b></p>
+            <p class="cart-right-gift"><input type="checkbox" style="margin-right: 4px;">This order contains a gift</p>
+            <button>Proceed to buy</button>
+        </div>
     </div>
     
     <!-- ------------FOOTER-------------- -->
 
-    <footer>
+    <footer class="footer-cart">
         <div class="foot-panel1">
             <a href="#top">Back to Top</a>
         </div>

@@ -28,15 +28,44 @@
     padding: 24px 0 12px 12px;
 }
 
+.product-cart-list img:first-child{
+    width: 200px;
+}
+
 .product-cart-titleprice{
     display: flex;
     gap: 20px;
     font-size: 18px;
 }
 
+.product-cart-titleprice p:first-child{
+    width: 90%;
+}
+
+.product-titleprice-mrp{
+    font-size: 14px;
+    color: #494949;
+    /* padding-top: 2px; */
+}
+
+.titleprice-red{
+    color: #be0b3b;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.titleprice-red span{
+    padding: 4px 5px;
+    background: #be0b3b;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
 .product-cart-bestseller{
     font-size: 12px;
     margin-top: 10px;
+    color: #5c5c5c;
 }
 
 .product-cart-bestseller span{
@@ -79,7 +108,8 @@
 }
 
 .product-cart-specs{
-    max-width: 150px;
+    color: black;
+    max-width: 200px;
     display: grid;
     grid-template-columns: auto auto;
     row-gap: 3px;
@@ -92,16 +122,79 @@
     gap: 12px;
     font-size: 14px;
     color: #007185;
+    margin-top: 10px;
 }
 
 .cart-list-action hr{
-    height: 20px;
+    height: 24px;
     width: 1px;
     background: #cfcfcf;
 }
 
 .cart-list-action select{
-    padding: 5px;
-    border-radius: 6px;
-    background: #f3f3f3;
+    padding: 3px ;
+    border: 2px solid #ffcc14;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.cart-list-subtotal{
+    text-align: right;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.cart-right{
+    background-color: white;
+    padding: 20px;
+    max-height: 220px;
+    max-width: 280px;
+}
+
+.cart-free-delivery{
+    display: flex;
+    font-size: 13px;
+}
+
+.cart-free-delivery i,.cart-free-delivery b{
+    color: #067d62;
+}
+
+.cart-free-delivery i{
+    font-size: 18px;
+    margin: 5px 5px 0 0;
+}
+
+.cart-free-delivery p span{
+    color: #007185;
+}
+
+.cart-subtotal{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cart-right-gift{
+    margin: 7px 0;
+    font-size: 14px;
+}
+
+.cart-right button{
+    font-size: 14px;
+    width: 100%;
+    height: 32px;
+    margin: 15px 0;
+    background: #ffd814;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cart-right button:hover{
+    background: #ffcc14;
+}
+
+.footer-cart{
+    margin-top: 50px;
 }

@@ -348,7 +348,13 @@ a{
 .product-offer p:first-child{
     font-size: 14px;
 }
+.product-offer .link-offer{
+    color: #000000;
+}
 .product-offer p:first-child:hover{
+    color: rgb(192, 169, 20);
+}
+.product-offer p .link-offer:first-child:hover{
     color: rgb(192, 169, 20);
 }
 .product-offer .deal-red span{

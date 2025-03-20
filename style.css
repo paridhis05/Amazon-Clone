@@ -128,7 +128,8 @@ a{
 
 /* -------BOX-5----- */
 
-.nav-signin span{
+.nav-signin a{
+    color: #cccccc;
     font-size: 0.7rem;
 }
 .nav-second{
